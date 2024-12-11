@@ -1,0 +1,152 @@
+/* ###############Header and thumbnail section############# */
+
+.heroimg{
+	background-color: var(--color-pri);
+	padding: 60px 0 110px;
+}
+
+.header{
+	margin-bottom: 65px;
+}
+.logo{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.navbar ul {
+	display: inline-block;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 0 18px;
+}
+
+.navbar ul li a {
+	color: var(--color-sec);
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+	height: 47.50px;
+	line-height: 47.50px;
+	padding: 0 18px;
+	transition: all .4s ease-in-out;
+}
+
+.navbar ul li a:is(:hover, :focus, :active){
+	background-color: var(--color-sec);
+	color: var(--color-pri);
+}
+
+.inspiration{
+	margin-top: 70px;
+}
+
+.brand-icons li{
+	display: inline-block;
+	margin-right: 38px;
+}
+
+.brand-icons li:not(:last-child){
+	margin-right: 38px;
+}
+
+.brand-icons li i{
+	font-size: 40px;
+	color: var(--color-sec);
+	transition: all .4s ease-in-out;
+}
+
+.brand-icons li:hover i{
+	transform: scale(1.2) rotate(360deg);
+}
+
+
+
+/* ############## feature section css ############## */
+
+.feature{
+	padding: 120px 75px;
+}
+.thumbinfo{
+	margin-bottom: 90px;
+}
+
+.thumbnail i{
+	font-size: 40px;
+}
+
+
+/* ############## footer section css ############## */
+
+
+.footer{
+	padding: 90px 0 140px;
+	background-color: var(--color-sec);
+}
+
+.footer .pri-heading{
+	color: var(--color-pri);
+}
+
+.footer .sec-heading{
+	color: var(--text-ter);
+}
+
+.updateEmail{
+	height: 50px;
+	width: calc(100% - 153px);
+	border-radius: 5px;	
+	outline: none;
+	padding: 0 20px;
+}
+
+.updateEmail::placeholder{
+	color: var(--text-ter);
+}
+
+.emailUpdateBtn{
+	width: 127px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: var(--color-pri);
+	color: var(--color-sec);
+	border-radius: 5px;
+	border: 1px solid var(--color-pri);
+	cursor: pointer;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.form-group{
+	margin-bottom: 80px;
+}
+
+.footer .brand-icons i{
+	color: var(--color-pri);
+	
+}
+
+.footerLinks li,
+.footerLinks li a:is(:visited, :link){
+	color: var(--color-white);
+	font-style: normal;
+}
+
+
+.footerLinks li a:is(:visited, :link){
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+

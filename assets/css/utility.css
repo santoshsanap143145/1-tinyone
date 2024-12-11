@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--color-pri : #fcdb00;
+	--color-sec : #010101;
+	--text-pri : #313841;
+	--text-sec : #555555;
+	--text-ter : #898989;
+	--color-white : #fff;
+	--color-dark : #000;
+	--color-danger : #ff0000;
+}
+
+body{
+	font-family: "PT Sans", sans-serif;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	width: 1180px;
+	/* border: 2px solid red; */
+	margin: 0 auto;
+}
+.row{
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.row:not(:last-child){
+	margin-bottom: 90px;
+}
+[class ^= "col-"]{
+	float: left;
+	padding: 0 15px;
+}
+
+.col-1{
+	width: calc(100% * 1 / 12);
+}
+
+.col-3{
+	width: calc(100% * 3 / 12);
+}
+
+.col-4{
+	width: calc(100% * 4 / 12);
+}
+
+.col-5{
+	width: calc(100% * 5 / 12);
+}
+
+.col-9{
+	width: calc(100% * 9 / 12);
+}
+
+.col-10{
+	width: calc(100% * 10 / 12);
+}
+
+.offset-1{
+	margin-left: calc(100% * 1 / 12);
+}
+
+.offset-2{
+	margin-left: calc(100% * 2 / 12);
+}
+
+/* typography css */
+
+.pri-heading{
+	color: var(--color-sec);
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 22px;
+
+}
+
+.sec-heading{
+	color: var(--text-pri);
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 22px;
+}
+
+.para{
+	font-size: 16px;
+	color: var(--text-sec);
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.thumbinfo h3{
+	color: var(--color-sec);
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-transform:capitalize;
+}
+
+.thumbinfo p{
+	color:var(--text-ter);
+	font-size:16px;
+	font-weight: 400;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-lowercase{
+	text-transform: lowercase !important;
+}
+
+.px-20{
+	padding: 0 20px;
+}
+
+.mb-135{
+	margin-bottom: 135px;
+}
